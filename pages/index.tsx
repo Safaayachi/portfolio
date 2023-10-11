@@ -12,7 +12,6 @@ const Home: NextPage = () => {
 		"home",
 		"common",
 		"button",
-		"auth",
 		"input",
 	]);
 	return (
@@ -30,7 +29,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 		props: {
 			...(await serverSideTranslations(
 				context.locale as string,
-				["home", "common", "button", "auth", "input"],
+				["home", "common", "button", "input"],
 				nextI18NextConfig
 			)),
 		},
