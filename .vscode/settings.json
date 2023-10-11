@@ -1,7 +1,11 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#092D58",
-        "titleBar.activeBackground": "#0D3F7B",
-        "titleBar.activeForeground": "#F7FAFE"
-    }
+	"cSpell.ignoreWords": ["plateforme"],
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#043e29",
+		"titleBar.activeBackground": "#043e29",
+		"titleBar.activeForeground": "#fff2f2"
+	},
+	"cSpell.words": ["formik", "propos", "upsert"],
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"typescript.enablePromptUseWorkspaceTsdk": true
 }
