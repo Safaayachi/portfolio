@@ -13,11 +13,11 @@ module.exports = {
 			colors: {
 				primary: "#F0122D",
 				"primary-tint": "#f7f7f6",
-				"primary-shade": "#B9B9AF",
-				secondary: "#262b42",
-				"secondary-shade": "#6c7280",
-				dark: "#040506",
-				"dark-tint": "#e2e9f2",
+				"primary-shade": "#7d8590",
+				secondary: "#27272f",
+				"secondary-shade": "#474b52",
+				dark: "#202026",
+				"dark-tint": "#182328",
 				danger: "#D11317",
 				
 			},

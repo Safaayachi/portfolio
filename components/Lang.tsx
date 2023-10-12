@@ -1,7 +1,7 @@
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import { useState, Fragment } from "react";
-import "/node_modules/flag-icons/css/flag-icons.min.css";
+
 
 const Language = () => {
 	const languages = [
@@ -26,11 +26,11 @@ const Language = () => {
 				className="flex items-center text-center cursor-pointer gap-2"
 			>
 				{i18n.language === "en" ? (
-					<span className="fi fi-gb text-xxs"></span>
+					<span className=" text-xs">EN</span>
 				) : (
-					<span className="fi fi-fr text-xxs"></span>
+					<span className=" text-xs">FR</span>
 				)}
-				<div className="text-xs font-bold">{t(`common:language`)}</div>
+				
 			</div>
 		</Fragment>
 	);
