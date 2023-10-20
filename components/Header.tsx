@@ -32,7 +32,7 @@ const Header = () => {
 						>
 							<div className="flex flex-col">
 								<div className=" w-full  flex  items-start px-4">
-									<div className="relative w-36 h-36 p-2 border-8 border-solid border-secondary rounded-full shadow-md ">
+									<div className="relative w-36 h-36 p-2 border-4 border-solid border-secondary rounded-full shadow-md ">
 										<Image
 											alt={"personal picture"}
 											src={"/images/img.png"}
@@ -44,7 +44,7 @@ const Header = () => {
 								<div className="text-primary-tint text-xl font-bold tracking-wide px-6 py-4">
 									Ayachi Safa
 								</div>
-								<div className="text-primary-tint py-1 tracking-widest px-6 py-4">
+								<div className="text-primary-tint  tracking-widest px-6 py-1">
 									Full Stack JavaScript Developer
 								</div>
 								<div className="flex flex-col gap-2 text-primary-tint pt-10 py-6 ">
