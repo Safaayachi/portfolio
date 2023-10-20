@@ -31,6 +31,22 @@ const Header = () => {
 							className="fixed z-10 h-full sm:w-1/2 w-2/3 inset-0  bg-dark lg:hidden mt-12 "
 						>
 							<div className="flex flex-col">
+								<div className=" w-full  flex  items-start px-4">
+									<div className="relative w-36 h-36 p-2 border-8 border-solid border-secondary rounded-full shadow-md ">
+										<Image
+											alt={"personal picture"}
+											src={"/images/img.png"}
+											fill
+											className="rounded-full shadow-xl "
+										></Image>
+									</div>
+								</div>
+								<div className="text-primary-tint text-xl font-bold tracking-wide px-6 py-4">
+									Ayachi Safa
+								</div>
+								<div className="text-primary-tint py-1 tracking-widest px-6 py-4">
+									Full Stack JavaScript Developer
+								</div>
 								<div className="flex flex-col gap-2 text-primary-tint pt-10 py-6 ">
 									<div className="py-4 px-6 shadow-md text-xs hover:py-6 hover:bg-secondary">
 										Home
