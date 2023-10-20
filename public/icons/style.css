@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ii6qb0');
-  src:  url('fonts/icomoon.eot?ii6qb0#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ii6qb0') format('truetype'),
-    url('fonts/icomoon.woff?ii6qb0') format('woff'),
-    url('fonts/icomoon.svg?ii6qb0#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?80xe5m');
+  src:  url('fonts/icomoon.eot?80xe5m#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?80xe5m') format('truetype'),
+    url('fonts/icomoon.woff?80xe5m') format('woff'),
+    url('fonts/icomoon.svg?80xe5m#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,111 +25,232 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-stack:before {
-  content: "\e92e";
+.icon-in:before {
+  content: "\e900";
 }
-.icon-phone:before {
-  content: "\e942";
+.icon-home:before {
+  content: "\e901";
 }
-.icon-display:before {
-  content: "\e956";
+.icon-article:before {
+  content: "\e902";
 }
-.icon-drawer2:before {
-  content: "\e95d";
+.icon-read-more:before {
+  content: "\e903";
 }
-.icon-database:before {
-  content: "\e964";
+.icon-list:before {
+  content: "\e904";
 }
-.icon-redo2:before {
-  content: "\e968";
+.icon-list-nested:before {
+  content: "\e905";
 }
-.icon-bubbles2:before {
-  content: "\e96d";
+.icon-map-pin-alt:before {
+  content: "\e906";
 }
 .icon-user:before {
-  content: "\e971";
+  content: "\e907";
 }
-.icon-users:before {
-  content: "\e972";
+.icon-settings:before {
+  content: "\e908";
 }
-.icon-search:before {
-  content: "\e986";
+.icon-bulb:before {
+  content: "\e909";
 }
-.icon-cog:before {
-  content: "\e994";
+.icon-pen:before {
+  content: "\e90a";
 }
-.icon-sphere:before {
-  content: "\e9c9";
+.icon-stack:before {
+  content: "\e90b";
 }
-.icon-earth:before {
-  content: "\e9ca";
+.icon-paperplane:before {
+  content: "\e90c";
 }
-.icon-attachment:before {
-  content: "\e9cd";
+.icon-data:before {
+  content: "\e90d";
 }
-.icon-bookmark:before {
-  content: "\e9d2";
+.icon-angry-face-teeth:before {
+  content: "\e90e";
 }
-.icon-contrast:before {
-  content: "\e9d5";
+.icon-unamused-face-tightly-closed-eyes:before {
+  content: "\e90f";
 }
-.icon-heart:before {
-  content: "\e9da";
+.icon-amused-face-closed-eyes:before {
+  content: "\e910";
 }
-.icon-plus:before {
-  content: "\ea0a";
+.icon-grinning-face:before {
+  content: "\e911";
 }
-.icon-minus:before {
-  content: "\ea0b";
+.icon-astonished-face:before {
+  content: "\e912";
 }
-.icon-checkmark:before {
-  content: "\ea10";
+.icon-smirking-face-sunglasses:before {
+  content: "\e913";
 }
-.icon-arrow-right2:before {
-  content: "\ea3c";
+.icon-thumb-up:before {
+  content: "\e914";
 }
-.icon-arrow-left2:before {
-  content: "\ea40";
+.icon-two-fingers:before {
+  content: "\e915";
 }
-.icon-circle-up:before {
-  content: "\ea41";
+.icon-one-finger-swipe-right:before {
+  content: "\e916";
 }
-.icon-circle-right:before {
-  content: "\ea42";
+.icon-one-finger-tap-hold:before {
+  content: "\e917";
 }
-.icon-circle-down:before {
-  content: "\ea43";
+.icon-adobeacrobatreader:before {
+  content: "\e918";
+  color: #ee3f24;
 }
-.icon-circle-left:before {
-  content: "\ea44";
+.icon-adobeillustrator:before {
+  content: "\e919";
+  color: #ff7c00;
 }
-.icon-dropbox:before {
-  content: "\eaae";
+.icon-adobephotoshop:before {
+  content: "\e91a";
+  color: #00c8ff;
 }
-.icon-onedrive:before {
-  content: "\eaaf";
+.icon-adobexd:before {
+  content: "\e91b";
+  color: #ff2bc2;
 }
-.icon-github:before {
-  content: "\eab0";
+.icon-amazonaws:before {
+  content: "\e91c";
 }
-.icon-skype:before {
-  content: "\eac5";
+.icon-android:before {
+  content: "\e91d";
+  color: #3ddc84;
 }
-.icon-linkedin2:before {
-  content: "\eaca";
+.icon-angular:before {
+  content: "\e91e";
+  color: #dd0031;
 }
-.icon-stackoverflow:before {
-  content: "\ead0";
+.icon-bootstrap:before {
+  content: "\e91f";
+  color: #563d7c;
 }
-.icon-file-pdf:before {
-  content: "\eadf";
-}
-.icon-html-five:before {
-  content: "\eae4";
+.icon-canva:before {
+  content: "\e920";
+  color: #00c4cc;
 }
 .icon-css3:before {
-  content: "\eae6";
+  content: "\e921";
+  color: #1572b6;
+}
+.icon-dot-net:before {
+  content: "\e922";
+  color: #5c2d91;
+}
+.icon-facebook:before {
+  content: "\e923";
+  color: #1877f2;
+}
+.icon-figma:before {
+  content: "\e924";
+  color: #f24e1e;
 }
 .icon-git:before {
-  content: "\eae7";
+  content: "\e925";
+  color: #f05032;
+}
+.icon-github:before {
+  content: "\e926";
+}
+.icon-groupon:before {
+  content: "\e927";
+  color: #53a318;
+}
+.icon-html5:before {
+  content: "\e928";
+  color: #e34f26;
+}
+.icon-imdb:before {
+  content: "\e929";
+  color: #e6b91e;
+}
+.icon-invision:before {
+  content: "\e92a";
+  color: #f36;
+}
+.icon-java:before {
+  content: "\e92b";
+  color: #007396;
+}
+.icon-javascript:before {
+  content: "\e92c";
+  color: #f7df1e;
+}
+.icon-kubernetes:before {
+  content: "\e92d";
+  color: #326ce5;
+}
+.icon-linkedin:before {
+  content: "\e92e";
+  color: #0077b5;
+}
+.icon-linux:before {
+  content: "\e92f";
+  color: #fcc624;
+}
+.icon-mongodb:before {
+  content: "\e930";
+  color: #47a248;
+}
+.icon-mysql:before {
+  content: "\e931";
+  color: #4479a1;
+}
+.icon-nginx:before {
+  content: "\e932";
+  color: #269539;
+}
+.icon-node-dot-js:before {
+  content: "\e933";
+  color: #393;
+}
+.icon-npm:before {
+  content: "\e934";
+  color: #cb3837;
+}
+.icon-python:before {
+  content: "\e935";
+  color: #3776ab;
+}
+.icon-react:before {
+  content: "\e936";
+  color: #61dafb;
+}
+.icon-skype:before {
+  content: "\e937";
+  color: #00aff0;
+}
+.icon-slack:before {
+  content: "\e938";
+  color: #4a154b;
+}
+.icon-stackoverflow:before {
+  content: "\e939";
+  color: #fe7a16;
+}
+.icon-symfony:before {
+  content: "\e93a";
+}
+.icon-tensorflow:before {
+  content: "\e93b";
+  color: #ff6f00;
+}
+.icon-typescript:before {
+  content: "\e93c";
+  color: #007acc;
+}
+.icon-visualstudiocode:before {
+  content: "\e93d";
+  color: #007acc;
+}
+.icon-whatsapp:before {
+  content: "\e93e";
+  color: #25d366;
+}
+.icon-youtube:before {
+  content: "\e93f";
+  color: #f00;
 }

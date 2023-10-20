@@ -30,9 +30,9 @@ const Header = () => {
 							onClick={() => setShowMenu(false)}
 							className="fixed z-10 h-full sm:w-1/2 w-2/3 inset-0  bg-dark lg:hidden mt-12 "
 						>
-							<div className="flex flex-col">
+							<div className="flex flex-col pt-6">
 								<div className=" w-full  flex  items-start px-4">
-									<div className="relative w-36 h-36 p-2 border-4 border-solid border-secondary rounded-full shadow-md ">
+									<div className="relative w-32 h-32  p-2 border-4 border-solid border-secondary rounded-full shadow-md ">
 										<Image
 											alt={"personal picture"}
 											src={"/images/img.png"}
@@ -41,10 +41,10 @@ const Header = () => {
 										></Image>
 									</div>
 								</div>
-								<div className="text-primary-tint text-xl font-bold tracking-wide px-6 py-4">
+								<div className="text-primary-tint text-md font-bold tracking-wide px-6 py-4">
 									Ayachi Safa
 								</div>
-								<div className="text-primary-tint  tracking-widest px-6 py-1">
+								<div className="text-primary-tint text-xs tracking-widest px-6 py-1">
 									Full Stack JavaScript Developer
 								</div>
 								<div className="flex flex-col gap-2 text-primary-tint pt-10 py-6 ">
@@ -54,11 +54,12 @@ const Header = () => {
 									<div className="py-4 px-6 shadow-md text-xs hover:py-6 hover:bg-secondary">
 										Projects
 									</div>
-									<div className="py-4 px-6 shadow-md text-xs hover:py-6 hover:bg-secondary">
-										Contact
-									</div>
+
 									<div className="py-4 px-6 shadow-md hover:py-6 hover:bg-secondary">
 										<Language />
+									</div>
+									<div className="py-4 px-6 shadow-md hover:py-6 hover:bg-secondary">
+										<i className="icon-in text-white text-xs"></i>
 									</div>
 								</div>
 							</div>
@@ -70,12 +71,12 @@ const Header = () => {
 						<div className="flex space-x-10 ">
 							<div>Home</div>
 							<div>Projects</div>
-							<div>Contact</div>
+
 							<Language />
 						</div>
-						<button className="btn btn-primary text-xs ">
-							Download CV
-						</button>
+						<div className="">
+							<i className="icon-in text-white text-"></i>
+						</div>
 					</div>
 				</nav>
 			</header>
