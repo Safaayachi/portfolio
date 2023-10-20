@@ -13,9 +13,9 @@ const Home: NextPage = () => {
 	return (
 		<div>
 			<Layout>
-				<section className="relative h-full w-full flex md:flex-row flex-col md:justify-between bg-dark px-32 ">
+				<section className="relative h-full w-full flex md:flex-row flex-col md:justify-between bg-dark md:px-32 px-10">
 					<div className="pt-52 container flex flex-col space-y-10 sm:mx-auto md:px-16 ">
-						<div className="relative w-full flex flex-row py-10 pb-32 px-6">
+						<div className="hidden relative w-full lg:flex flex-row py-10 pb-32 px-6">
 							<div className="flex flex-col w-1/2">
 								<div className="flex flex-row space-x-2">
 									<div className="text-primary-tint">
@@ -74,18 +74,15 @@ const Home: NextPage = () => {
 								Technologies
 							</div>
 						</div>
-						<div className="grid grid-rows-2 w-full gap-6 p-6 px-28">
-							<div className="grid grid-cols-3 gap-6">
-								<div className=" h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-								<div className=" bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-								<div className=" bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-							</div>
-							<div className="grid grid-cols-3 gap-6">
-								<div className=" h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-								<div className=" bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-								<div className=" bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-							</div>
+						<div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-6 p-6 px-28">
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
 						</div>
+						
 						<div className="w-full h-0.5 bg-gradient-to-r from-secondary via-primary-shade to-secondary "></div>
 						<div>
 							<div className="flex justify-center items-center text-xxs text-primary tracking-wide">
@@ -95,22 +92,18 @@ const Home: NextPage = () => {
 								Recent works
 							</div>
 						</div>
-						<div className="grid grid-rows-2 w-full gap-6 p-6 px-28">
-							<div className="grid grid-cols-3 gap-6">
-								<div className=" h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-								<div className=" bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-								<div className=" bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-							</div>
-							<div className="grid grid-cols-3 gap-6">
-								<div className=" h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-								<div className=" bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-								<div className=" bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-							</div>
-							<div className="flex flex-row justify-center">
-								<button className="relative p-2 text-primary-tint text-xs bg-secondary rounded-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid   ">
-									View All Works
-								</button>
-							</div>
+						<div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-6 p-6 px-28">
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
+						</div>
+						<div className="flex flex-row justify-center">
+							<button className="relative p-2 text-primary-tint text-xs bg-secondary rounded-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid   ">
+								View All Works
+							</button>
 						</div>
 						<div className="w-full h-0.5 bg-gradient-to-r from-secondary via-primary-shade to-secondary "></div>
 						<div>
@@ -121,7 +114,7 @@ const Home: NextPage = () => {
 								My Resume
 							</div>
 						</div>
-						<div className="relative w-full flex flex-row p-6 gap-32 px-28">
+						<div className="relative w-full flex flex-col lg:flex-row p-6 items-center gap-32 md:px-28">
 							<div className="relative w-1/2 h-full flex flex-row">
 								<div className=" pr-0.5 border-l border-solid  h-full bg-gradient-to-b from-secondary to-secondary via-primary-shade" />
 
@@ -160,7 +153,7 @@ const Home: NextPage = () => {
 								Contact With Me
 							</div>
 						</div>
-						<div className="relative flex flex-row gap-10 w-full px-28">
+						<div className="relative flex flex-col-reverse lg:flex-row gap-10 w-full items-center lg:px-28">
 							<div className="w-2/6  p-6">
 								<div className="grid grid-cols-1 grid-rows-4 gap-6 w-full">
 									<div className="w-full h-24 bg-secondary rounded-md shadow-2xl cursor-pointer"></div>
@@ -170,23 +163,42 @@ const Home: NextPage = () => {
 								</div>
 							</div>
 							<div className="w-4/6 p-6">
-								
 								<form
 									action="
 								"
 									className="bg-secondary rounded-md shadow-2xl flex flex-col p-6 gap-4 h-full"
 								>
 									<div className="grid grid-cols-2 grid-rows-2 gap-4">
-										<input type="text" className="bg-dark text-primary-tint text-xxs" placeholder="Enter Your Name"/>
-										<input type="number" className="bg-dark text-primary-tint text-xxs" placeholder="Enter Your Phone"/>
-										<input type="text" className="bg-dark text-primary-tint text-xxs" placeholder="Enter Your Email"/>
-										<input type="text" className="bg-dark text-primary-tint text-xxs" placeholder="Enter Your Subject"/>
+										<input
+											type="text"
+											className="bg-dark text-primary-tint text-xxs"
+											placeholder="Enter Your Name"
+										/>
+										<input
+											type="number"
+											className="bg-dark text-primary-tint text-xxs"
+											placeholder="Enter Your Phone"
+										/>
+										<input
+											type="text"
+											className="bg-dark text-primary-tint text-xxs"
+											placeholder="Enter Your Email"
+										/>
+										<input
+											type="text"
+											className="bg-dark text-primary-tint text-xxs"
+											placeholder="Enter Your Subject"
+										/>
 									</div>
-									<textarea className="bg-dark h-full text-primary-tint text-xxs" placeholder="Enter Your Message"></textarea>
+									<textarea
+										className="bg-dark h-full text-primary-tint text-xxs"
+										placeholder="Enter Your Message"
+									></textarea>
 									<div className="flex justify-center py-4">
-										<button className="btn btn-secondary-outline p-2 font-extralight tracking-wide text-xxs">Send Message</button>
+										<button className="btn btn-secondary-outline p-2 font-extralight tracking-wide text-xxs">
+											Send Message
+										</button>
 									</div>
-
 								</form>
 							</div>
 						</div>
