@@ -10,6 +10,7 @@ import Layout from "../components/Layout";
 
 const Home: NextPage = () => {
 	const { t, i18n } = useTranslation(["home", "common", "button", "input"]);
+
 	return (
 		<div>
 			<Layout>
@@ -31,26 +32,58 @@ const Home: NextPage = () => {
 									Full Stack JavaScript Developer
 								</div>
 								<div className="text-primary-tint font-extralight text-xs leading-6 py-4 pb-10 ">
-									
 									<div className="text-primary-tint">
 										<Typewriter
 											options={{
-												strings: ["Experienced Full Stack Developer with a passion for crafting web applications that combine elegant design with powerful functionality. Proficient in both frontend and backend development, I have a track record of bringing ideas to life, from concept to deployment."],
+												strings: [
+													"Experienced Full Stack Developer with a passion for crafting web applications that combine elegant design with powerful functionality. Proficient in both frontend and backend development, I have a track record of bringing ideas to life, from concept to deployment.",
+												],
 												autoStart: true,
 												loop: true,
 											}}
 										/>
-										
 									</div>
 								</div>
 								<div className="text-primary-tint  text-xs tracking-wide">
 									FIND ME ON
 								</div>
 								<div className="flex flex-row justify-start items-center py-4 space-x-4">
-									<div className="h-8 w-8 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center"><i className="icon-github text-white text-xs"></i></div>
-									<div className="h-8 w-8 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center"><i className="icon-linkedin text-white text-xs"></i></div>
-									<div className="h-8 w-8 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center"><i className="icon-stackoverflow text-white text-xs flex justify-center items-center"></i></div>
-									<div className="h-8 w-8 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center"><i className="icon-skype text-white text-xs"></i></div>
+									<a
+										href="https://github.com/Safaayachi"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<div className="h-8 w-8 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center">
+											<i className="icon-github text-white text-xs"></i>
+										</div>
+									</a>
+									<a
+										href="https://www.linkedin.com/in/ayachi-safa-26b9a4182/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<div className="h-8 w-8 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center">
+											<i className="icon-linkedin  text-xs"></i>
+										</div>
+									</a>
+									<a
+										href="https://stackoverflow.com/users/17593969/safaayachi"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<div className="h-8 w-8 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center">
+											<i className="icon-stackoverflow1 text-white text-xs flex justify-center items-center"></i>
+										</div>
+									</a>
+									<a
+										href="https://www.linkedin.com/in/ayachi-safa-26b9a4182/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<div className="h-8 w-8 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center">
+											<i className="icon-skype text-white text-xs"></i>
+										</div>
+									</a>
 								</div>
 							</div>
 							<div className=" w-1/2  flex justify-end items-start px-4">
@@ -74,12 +107,24 @@ const Home: NextPage = () => {
 							</div>
 						</div>
 						<div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-6 p-6 md:px-28">
-							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center"><i className="icon-react text-9xl "></i></div>
-							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center"><i className="icon-node-dot-js text-9xl "></i></div>
-							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center"><i className="icon-typescript text-9xl "></i></div>
-							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center"><i className="icon-tensorflow text-9xl "></i></div>
-							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center"><i className="icon-javascript text-9xl "></i></div>
-							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center"><i className="icon-python text-9xl "></i></div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center">
+								<i className="icon-react text-9xl "></i>
+							</div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center">
+								<i className="icon-node-dot-js text-9xl "></i>
+							</div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center">
+								<i className="icon-typescript text-9xl "></i>
+							</div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center">
+								<i className="icon-tensorflow text-9xl "></i>
+							</div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center">
+								<i className="icon-javascript text-9xl "></i>
+							</div>
+							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center">
+								<i className="icon-python text-9xl "></i>
+							</div>
 						</div>
 
 						<div className="w-full h-0.5 bg-gradient-to-r from-secondary via-primary-shade to-secondary "></div>
@@ -100,9 +145,11 @@ const Home: NextPage = () => {
 							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
 						</div>
 						<div className="flex flex-row justify-center">
-							<button className="relative p-2 text-primary-tint text-xs bg-secondary rounded-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid   ">
-								View All Works
-							</button>
+							<Link href="/projects">
+								<button className="relative p-2 text-primary-tint text-xs bg-secondary rounded-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid   ">
+									View All Works
+								</button>
+							</Link>
 						</div>
 						<div className="w-full h-0.5 bg-gradient-to-r from-secondary via-primary-shade to-secondary "></div>
 						<div>
@@ -163,15 +210,43 @@ const Home: NextPage = () => {
 							</div>
 						</div>
 						<div className="relative flex flex-col-reverse lg:flex-row gap-10 w-full items-center ">
-							<div className="md:w-2/6 w-full  p-6">
-								<div className="flex flex-col  gap-2 w-full">
+							<div className="md:w-2/6 w-full  ">
+								<div className="flex flex-col  gap-2 w-full ">
 									<div className="flex flex-row gap-2 w-full">
-										<div className="w-full h-24 bg-secondary rounded-md shadow-2xl cursor-pointer"></div>
-										<div className="w-full h-24 bg-secondary rounded-md shadow-2xl cursor-pointer "></div>
+										<div className="w-full h-24 flex flex-col justify-center items-center bg-secondary rounded-md shadow-2xl cursor-pointer">
+											<div>
+												<i className="icon-phone-call text-primary text-xs"></i>
+											</div>
+											<div className="text-white text-xxs">
+												+216 26 150 994
+											</div>
+										</div>
+										<div className="w-full h-24 flex flex-col justify-center items-center bg-secondary rounded-md shadow-2xl cursor-pointer">
+											<div>
+												<i className="icon-map text-primary text-xs"></i>
+											</div>
+											<div className="text-white text-xxs">
+												Sousse, Tunisie
+											</div>
+										</div>
 									</div>
 									<div className="flex flex-row gap-2 w-full">
-										<div className="w-full h-24 bg-secondary rounded-md shadow-2xl cursor-pointer "></div>
-										<div className="w-full h-24 bg-secondary rounded-md shadow-2xl cursor-pointer "></div>
+										<div className="w-full h-24 flex flex-col justify-center items-center bg-secondary rounded-md shadow-2xl cursor-pointer ">
+											<div>
+												<i className="icon-edit text-primary text-xs"></i>
+											</div>
+											<div className="text-white text-xxs ">
+												write a feedback
+											</div>
+										</div>
+										<div className="w-full h-24 flex flex-col justify-center items-center bg-secondary rounded-md shadow-2xl cursor-pointer ">
+											<div>
+												<i className="icon-gmail text-white text-xs"></i>
+											</div>
+											<div className="text-white text-xxs ">
+												safa.ayachi@polytechnicien.tn
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
