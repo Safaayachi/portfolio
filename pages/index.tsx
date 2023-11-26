@@ -342,8 +342,8 @@ const Home: NextPage = () => {
 								Contact With Me
 							</div>
 						</div>
-						<div className="relative flex flex-col-reverse lg:flex-row gap-10 w-full items-center ">
-							<div className="md:w-2/6 w-full  ">
+						<div className="relative flex flex-col-reverse lg:flex-row gap-10 w-full items-center justify-center ">
+							<div className=" w-2/5  ">
 								<div className="flex flex-col  gap-2 w-full ">
 									<div className="flex flex-row gap-2 w-full">
 										<div className="w-full h-24 flex flex-col justify-center items-center bg-secondary rounded-md shadow-2xl cursor-pointer">
@@ -382,45 +382,6 @@ const Home: NextPage = () => {
 										</div>
 									</div>
 								</div>
-							</div>
-							<div className="md:w-4/6 w-full p-6 px-10">
-								<form
-									action="
-								"
-									className="bg-secondary rounded-md shadow-2xl flex flex-col p-6 gap-4 h-full"
-								>
-									<div className="grid grid-cols-2 grid-rows-2 gap-4">
-										<input
-											type="text"
-											className="bg-dark text-primary-tint text-xxs"
-											placeholder="Enter Your Name"
-										/>
-										<input
-											type="number"
-											className="bg-dark text-primary-tint text-xxs"
-											placeholder="Enter Your Phone"
-										/>
-										<input
-											type="text"
-											className="bg-dark text-primary-tint text-xxs"
-											placeholder="Enter Your Email"
-										/>
-										<input
-											type="text"
-											className="bg-dark text-primary-tint text-xxs"
-											placeholder="Enter Your Subject"
-										/>
-									</div>
-									<textarea
-										className="bg-dark h-full text-primary-tint text-xxs"
-										placeholder="Enter Your Message"
-									></textarea>
-									<div className="flex justify-center py-4">
-										<button className="btn btn-secondary-outline p-2 font-extralight tracking-wide text-xxs">
-											Send Message
-										</button>
-									</div>
-								</form>
 							</div>
 						</div>
 						<div className="w-full h-0.5 bg-gradient-to-r from-secondary via-primary-shade to-secondary "></div>
