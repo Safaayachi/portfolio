@@ -61,12 +61,16 @@ const Header = () => {
 										<div className="text-xs">Projects</div>
 									</div>
 									<div className="py-4 px-6 flex flex-row gap-2 shadow-md text-xs hover:py-6 hover:bg-secondary">
-										<Language/>
+										<Language />
 										<div className="text-xs">Language</div>
 									</div>
 									<div className="py-4 px-6 flex flex-row gap-2 shadow-md text-xs hover:py-6 hover:bg-secondary">
-										<i className="icon-download1 text-white text-xs"></i>
-										<div className="text-xs">Download cv</div>
+										<a href="/cv.pdf" download="cv">
+											<i className="icon-download1 text-white text-xs"></i>
+										</a>
+										<div className="text-xs">
+											Download cv
+										</div>
 									</div>
 								</div>
 							</div>
@@ -104,7 +108,9 @@ const Header = () => {
 								onMouseLeave={() => setIsShowing(false)} // Hide when not hovering
 								className=""
 							>
-								<i className="icon-download1 text-white text-xs"></i>
+								<a href="/cv.pdf" download="cv">
+									<i className="icon-download1 text-white text-xs"></i>
+								</a>
 							</button>
 
 							<div
