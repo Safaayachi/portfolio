@@ -91,12 +91,12 @@ const Header = () => {
 							</div>
 							<div
 								className={`flex h-14 text-xs  items-center justify-center border-solid border-b-2 border-b-transparent hover:border-b-primary ${
-									router.pathname === "/projects"
+									router.pathname === "/"
 										? "border-b-primary"
 										: ""
 								} `}
 							>
-								<Link href="/projects">Projects</Link>
+								<Link href="/">Projects</Link>
 							</div>
 							<div className="flex h-14 items-center justify-center border-solid border-b-2 border-b-transparent hover:border-b-primary">
 								<Language />
