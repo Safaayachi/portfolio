@@ -145,7 +145,7 @@ const Home: NextPage = () => {
 							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
 						</div>
 						<div className="flex flex-row justify-center">
-							<Link href="/projects">
+							<Link href="/">
 								<button className="relative p-2 text-primary-tint text-xs bg-secondary rounded-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid   ">
 									View All Works
 								</button>
