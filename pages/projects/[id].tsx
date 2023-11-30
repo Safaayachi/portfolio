@@ -6,9 +6,9 @@ import type { GetServerSideProps } from "next";
 import nextI18NextConfig from "../../i18n/next-i18next.config.js";
 import Typewriter from "typewriter-effect";
 import Link from "next/link";
-import Image from "next/image.js";
+import Image from "next/image";
 import React from "react";
-import Layout from "../../components/Layout.tsx";
+import Layout from "../../components/Layout";
 import { Router, useRouter } from "next/router";
 
 const Home: NextPage = () => {
