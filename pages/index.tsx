@@ -86,16 +86,6 @@ const Home: NextPage = () => {
 									</a>
 								</div>
 							</div>
-							<div className=" w-1/2  flex justify-end items-start px-4">
-								<div className="relative w-52 h-52 p-2 border-8 border-solid border-secondary rounded-full shadow-md hover:scale-125 transition duration-700 ease-in-out">
-									<Image
-										alt={"personal picture"}
-										src={"/images/img.png"}
-										fill
-										className="rounded-full shadow-xl "
-									></Image>
-								</div>
-							</div>
 						</div>
 						<div className="w-full h-0.5 bg-gradient-to-r from-secondary via-primary-shade to-secondary "></div>
 						<div>
@@ -117,7 +107,7 @@ const Home: NextPage = () => {
 								<i className="icon-typescript text-9xl "></i>
 							</div>
 							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center">
-								<i className="icon-tensorflow text-9xl "></i>
+								<i className="icon-mongodb text-9xl "></i>
 							</div>
 							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out flex justify-center items-center">
 								<i className="icon-javascript text-9xl "></i>
@@ -137,12 +127,89 @@ const Home: NextPage = () => {
 							</div>
 						</div>
 						<div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-6 p-6 md:px-28">
-							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
-							<div className="h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out"></div>
+							<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
+								<Image
+									alt={"personal picture"}
+									src={"/images/crowdFunding.jpeg"}
+									layout="fill"
+									objectFit="cover"
+									className="rounded-md"
+								/>
+								<div className="absolute z-20 bg-black h-14 opacity-80 bottom-0 left-0 w-full"></div>
+								<div className="absolute z-20  h-14 flex items-center   bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
+									CrowdFund - Plateforme de Financement
+									Participatif Polyvalente
+								</div>
+							</div>
+
+							<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
+								<Image
+									alt={"personal picture"}
+									src={"/images/movies.jpeg"}
+									layout="fill"
+									objectFit="cover"
+									className="rounded-md"
+								/>
+								<div className="absolute z-20 bg-black h-14 opacity-80 bottom-0 left-0 w-full"></div>
+								<div className="absolute z-20  h-14 flex items-center   bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
+									Feelim - Recommandation de Films basée sur
+									l'Humeur
+								</div>
+							</div>
+							<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
+								<Image
+									alt={"personal picture"}
+									src={"/images/feedback.jpeg"}
+									layout="fill"
+									objectFit="cover"
+									className="rounded-md"
+								/>
+								<div className="absolute z-20 bg-black h-14 opacity-80 bottom-0 left-0 w-full"></div>
+								<div className="absolute z-20 flex items-center  h-14  bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
+									Feedback Manager
+								</div>
+							</div>
+							<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
+								<Image
+									alt={"personal picture"}
+									src={"/images/books.jpeg"}
+									layout="fill"
+									objectFit="cover"
+									className="rounded-md"
+								/>
+								<div className="absolute z-20 bg-black h-14 opacity-80 bottom-0 left-0 w-full"></div>
+								<div className="absolute z-20  h-14 flex items-center   bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
+									Wattpad Clone
+								</div>
+							</div>
+							<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
+								<Image
+									alt={"personal picture"}
+									src={"/images/assa2h.png"}
+									layout="fill"
+									objectFit="cover"
+									className="rounded-md"
+								/>
+								<div className="absolute z-20 bg-black h-16 opacity-80 bottom-0 left-0 w-full"></div>
+								<div className="absolute z-20  h-16 flex items-center   bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
+									CrowdFund - Plateforme de Financement
+									Participatif Polyvalente
+								</div>
+							</div>
+							<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
+								<Image
+									alt={"personal picture"}
+									src={"/images/midan.png"}
+									layout="fill"
+									objectFit="cover"
+									className="rounded-md"
+								/>
+								<div className="absolute z-20 bg-black h-16 opacity-80 bottom-0 left-0 w-full"></div>
+								<div className="absolute z-20  h-16 flex items-center   bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
+									CrowdFund - Plateforme de Financement
+									Participatif Polyvalente
+								</div>
+							</div>
 						</div>
 						<div className="flex flex-row justify-center">
 							<Link href="/">
@@ -160,176 +227,197 @@ const Home: NextPage = () => {
 								My Resume
 							</div>
 						</div>
-						<div className="flex flex-row justify-around text-primary font-bold text-xl ">
-							<div className="">Diplômes et Formations</div>
-							<div className="">Expériences professionnelles</div>
-						</div>
-						<div className="relative w-full flex flex-col lg:flex-row p-6 items-center gap-32 md:px-28">
-							<div className="relative w-full md:w-1/2 h-full flex flex-row">
-								<div className=" pr-0.5 border-l border-solid  h-full bg-gradient-to-b from-secondary to-secondary via-primary-shade" />
 
-								<div className="md:grid grid-cols-1 grid-rows-3 gap-12 py-4 hidden">
-									<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
-									<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
-									<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
+						<div className="relative w-full flex flex-col lg:flex-row p-6 items-center gap-32 md:px-28">
+							<div className="flex flex-col relative w-full md:w-1/2 h-full">
+								<div className=" text-primary font-bold text-xl p-2 my-10 text-center border border-solid border-primary-shade  opacity-70 ">
+									Diplômes et Formations
 								</div>
-								<div className="grid grid-cols-1 grid-rows-3 gap-6 w-full">
-									<div className=" w-full h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid border-primary-shade flex flex-col gap-2  p-2">
-										<div className="text-primary-tint font-bold text-xl">
-											Diplôme national d'ingénieur en
-											informatique
+								<div className=" flex flex-row">
+									<div className=" pr-0.5 border-l border-solid  h-full bg-gradient-to-b from-secondary to-secondary via-primary-shade" />
+
+									<div className="grid grid-cols-1 grid-rows-3 gap-6 w-full">
+										<div className="flex flex-row">
+											<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
+											<div className=" w-full min-w-min bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid border-primary-shade flex flex-col gap-2  p-2">
+												<div className="text-primary-tint font-bold text-xl">
+													Diplôme national d'ingénieur
+													en informatique
+												</div>
+												<div className=" flex flex-col gap-1">
+													<div className="text-primary-shade font-semibold text-xxs">
+														De septembre 2021 à
+														juillet 2024
+													</div>
+													<div className="text-primary-tint font-bold text-sm">
+														Ecole Polytechnique de
+														sousse
+													</div>
+													<div className="text-primary-shade font-semibold text-xxs">
+														Sousse, Tunisie
+													</div>
+												</div>
+											</div>
 										</div>
-										<div className=" flex flex-col gap-1">
-											<div className="text-primary-shade font-semibold text-xxs">
-												De septembre 2021 à juillet 2024
+										<div className="flex flex-row">
+											<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
+											<div className=" w-full min-w-min bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid border-primary-shade flex flex-col gap-2 p-2">
+												<div className="text-primary-tint font-bold text-xl">
+													Licence fondamentale en
+													sciences de l'informatique
+												</div>
+												<div className="flex flex-col gap-1">
+													<div className="text-primary-shade font-semibold text-xxs">
+														De septembre 2017 à juin
+														2021
+													</div>
+													<div className="text-primary-tint font-bold text-sm">
+														ISIMM
+													</div>
+													<div className="text-primary-shade font-semibold text-xxs">
+														Monastir, Tunisie
+													</div>
+												</div>
 											</div>
-											<div className="text-primary-tint font-bold text-sm">
-												Ecole Polytechnique de sousse
-											</div>
-											<div className="text-primary-shade font-semibold text-xxs">
-												Sousse, Tunisie
+										</div>
+										<div className="flex flex-row">
+											<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
+											<div className=" w-full min-w-min bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid border-primary-shade flex flex-col gap-2  p-2">
+												<div className="text-primary-tint font-bold text-xl">
+													Baccalaureat Scientifique
+												</div>
+												<div className="flex flex-col gap-1">
+													<div className="text-primary-shade font-semibold text-xxs">
+														Juin 2017
+													</div>
+													<div className="text-primary-tint font-bold text-sm">
+														Lycée Dar Lamen
+													</div>
+													<div className="text-primary-shade font-semibold text-xxs">
+														Kairouan, Tunisie
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div className=" w-full h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid border-primary-shade flex flex-col gap-2  p-2">
-										<div className="text-primary-tint font-bold text-xl">
-											Licence fondamentale en sciences de
-											l'informatique
-										</div>
-										<div className="flex flex-col gap-1">
-											<div className="text-primary-shade font-semibold text-xxs">
-												De septembre 2017 à juin 2021
-											</div>
-											<div className="text-primary-tint font-bold text-sm">
-												ISIMM
-											</div>
-											<div className="text-primary-shade font-semibold text-xxs">
-												Monastir, Tunisie
-											</div>
-										</div>
-									</div>
-									<div className=" w-full h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid border-primary-shade flex flex-col gap-2  p-2">
-										<div className="text-primary-tint font-bold text-xl">
-											Baccalaureat Scientifique
-										</div>
-										<div className="flex flex-col gap-1">
-											<div className="text-primary-shade font-semibold text-xxs">
-												Juin 2017
-											</div>
-											<div className="text-primary-tint font-bold text-sm">
-												Lycée Dar Lamen
-											</div>
-											<div className="text-primary-shade font-semibold text-xxs">
-												Kairouan, Tunisie
-											</div>
-										</div>
-									</div>
-								</div>
-								<div className="md:grid grid-cols-1 grid-rows-3 gap-12 py-4 hidden">
-									<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
-									<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
-									<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
 								</div>
 							</div>
-							<div className="relative w-full md:w-1/2 h-full flex flex-row  ">
-								<div className="hidden md:flex pr-0.5 border-l border-solid   h-full bg-gradient-to-b from-secondary to-secondary via-primary-shade " />
 
-								<div className="md:grid grid-cols-1 grid-rows-3 gap-12 py-4 hidden">
-									<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
-									<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
-									<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
+							<div className="flex flex-col  relative w-full md:w-1/2 h-full">
+								<div className="text-primary font-bold text-xl p-2 my-10 text-center border border-solid border-primary-shade opacity-70">
+									Expériences professionnelles
 								</div>
-								<div className="grid grid-cols-1 grid-rows-3 gap-6 w-full">
-									<div className=" w-full h-fit bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid border-primary-shade flex flex-col gap-2  p-2">
-										<div className="text-primary-tint font-bold text-md">
-											Développeur junior Full Stack
-											JavaScript - Stage Technicien
+								<div className="flex flex-row">
+									<div className=" pr-0.5 border-l border-solid   h-full bg-gradient-to-b from-secondary to-secondary via-primary-shade " />
+
+									<div className="grid grid-cols-1 grid-rows-3 gap-6 w-full">
+										<div className="flex flex-row ">
+											<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
+											<div className=" w-full min-w-min bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid border-primary-shade flex flex-col gap-2  p-2">
+												<div className="text-primary-tint font-bold text-md">
+													Développeur junior Full
+													Stack JavaScript - Stage
+													Technicien
+												</div>
+												<div className=" flex flex-col">
+													<div className="text-primary-shade font-semibold text-xxs">
+														De juin 2023 à août 2023
+													</div>
+													<div className="text-primary-tint  text-xxs">
+														Conception et mise en
+														place d'une application
+														Feedback Manager,
+														facilitant l'attribution
+														et la gestion efficace
+														des retours
+														utilisateurs.
+														Intégration d'un widget
+														dédié pour simplifier le
+														processus d'attribution
+														des feedbacks.
+													</div>
+													<div className="text-primary-shade font-semibold text-xxs">
+														JoodLab Sousse
+													</div>
+												</div>
+											</div>
 										</div>
-										<div className=" flex flex-col">
-											<div className="text-primary-shade font-semibold text-xxs">
-												De juin 2023 à août 2023
+										<div className="flex flex-row">
+											<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
+											<div className=" w-full min-w-min bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid border-primary-shade flex flex-col gap-2  p-2">
+												<div className="text-primary-tint font-bold text-md">
+													Développeur Web - Stage
+													Ouvrier
+												</div>
+												<div className=" flex flex-col">
+													<div className="text-primary-shade font-semibold text-xxs">
+														De juin 2022 à août 2022
+													</div>
+													<div className="text-primary-tint  text-xxs">
+														Création d'un clone de
+														Wattpad, une plateforme
+														immersive permettant aux
+														utilisateurs de publier,
+														découvrir et partager
+														des histoires
+														captivantes
+													</div>
+													<div className="text-primary-shade font-semibold text-xxs">
+														JoodLab Sousse
+													</div>
+												</div>
 											</div>
-											<div className="text-primary-tint  text-xxs">
-												Conception et mise en place
-												d'une application Feedback
-												Manager, facilitant
-												l'attribution et la gestion
-												efficace des retours
-												utilisateurs. Intégration d'un
-												widget dédié pour simplifier le
-												processus d'attribution des
-												feedbacks.
+										</div>
+										<div className="flex flex-row">
+											<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
+											<div className=" w-full min-w-min bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid border-primary-shade flex flex-col gap-2  p-2">
+												<div className="text-primary-tint font-bold text-md">
+													Designer graphique
+												</div>
+												<div className=" flex flex-col">
+													<div className="text-primary-shade font-semibold text-xxs">
+														D'avril 2022 à juin 2022
+													</div>
+													<div className="text-primary-tint  text-xxs">
+														Création de supports
+														visuels pour des
+														campagnes publicitaires.
+													</div>
+													<div className="text-primary-shade font-semibold text-xxs">
+														VerdeLine Tunis
+													</div>
+												</div>
 											</div>
-											<div className="text-primary-shade font-semibold text-xxs">
-												JoodLab Sousse
+										</div>
+										<div className="flex flex-row">
+											<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
+											<div className=" w-full min-w-min bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid border-primary-shade flex flex-col gap-2  p-2">
+												<div className="text-primary-tint font-bold text-md">
+													Technicien informatique -
+													Stage PFE
+												</div>
+												<div className=" flex flex-col">
+													<div className="text-primary-shade font-semibold text-xxs">
+														De mars 2021 à juin 2021
+													</div>
+													<div className="text-primary-tint  text-xxs">
+														Conception et mise en
+														place Conception d'une
+														application mobile pour
+														le site e-commerce Zemny
+														avec un chatbot
+														automatisé sur toutes
+														les plateformes, offrant
+														une expérience
+														utilisateur optimale.
+													</div>
+													<div className="text-primary-shade font-semibold text-xxs">
+														Digitika Monastir
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div className=" w-full h-fit bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid border-primary-shade flex flex-col gap-2  p-2">
-										<div className="text-primary-tint font-bold text-md">
-											Développeur Web - Stage Ouvrier
-										</div>
-										<div className=" flex flex-col">
-											<div className="text-primary-shade font-semibold text-xxs">
-												De juin 2022 à août 2022
-											</div>
-											<div className="text-primary-tint  text-xxs">
-												Création d'un clone de Wattpad,
-												une plateforme immersive
-												permettant aux utilisateurs de
-												publier, découvrir et partager
-												des histoires captivantes
-											</div>
-											<div className="text-primary-shade font-semibold text-xxs">
-												JoodLab Sousse
-											</div>
-										</div>
-									</div>
-									<div className=" w-full h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid border-primary-shade flex flex-col gap-2  p-2">
-										<div className="text-primary-tint font-bold text-md">
-											Designer graphique
-										</div>
-										<div className=" flex flex-col">
-											<div className="text-primary-shade font-semibold text-xxs">
-												D'avril 2022 à juin 2022
-											</div>
-											<div className="text-primary-tint  text-xxs">
-												Création de supports visuels
-												pour des campagnes
-												publicitaires.
-											</div>
-											<div className="text-primary-shade font-semibold text-xxs">
-												VerdeLine Tunis
-											</div>
-										</div>
-									</div>
-									<div className=" w-full h-fit bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid border-primary-shade flex flex-col gap-2  p-2">
-										<div className="text-primary-tint font-bold text-md">
-											Technicien informatique - Stage PFE
-										</div>
-										<div className=" flex flex-col">
-											<div className="text-primary-shade font-semibold text-xxs">
-												De mars 2021 à juin 2021
-											</div>
-											<div className="text-primary-tint  text-xxs">
-												Conception et mise en place
-												Conception d'une application
-												mobile pour le site e-commerce
-												Zemny avec un chatbot automatisé
-												sur toutes les plateformes,
-												offrant une expérience
-												utilisateur optimale.
-											</div>
-											<div className="text-primary-shade font-semibold text-xxs">
-												Digitika Monastir
-											</div>
-										</div>
-									</div>
-								</div>
-								<div className="md:grid grid-cols-1 grid-rows-3 gap-12 py-4 hidden">
-									<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
-									<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
-									<div className="text-primary-tint w-12 border-t border-solid opacity-10 mr-2"></div>
 								</div>
 							</div>
 						</div>
