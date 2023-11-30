@@ -11,16 +11,7 @@
 		},
 
 		"image": "/images/crowdFunding.jpeg",
-		"technologies": [
-			"VueJs",
-			"Prisma",
-			"SolidJs",
-			"MySQL",
-			"TypeScript",
-			"Fastify",
-			"Turbo",
-			"Monorepo"
-		]
+		"technologies": ["NextJs", "Prisma", "MySQL", "TailwindCSS", "NextAuth"]
 	},
 	{
 		"id": 1,
@@ -31,24 +22,25 @@
 		"description": { "en": "", "fr": "" },
 		"image": "/images/movies.jpeg",
 		"technologies": [
-			"VueJs",
+			"OpenAI api",
+			"React",
+			"NodeJs",
+			"Express",
 			"Prisma",
-			"SolidJs",
-			"MySQL",
-			"TypeScript",
-			"Fastify",
-			"Turbo",
-			"Monorepo"
+			"Postgresql"
 		]
 	},
 	{
 		"id": 2,
 		"title": {
-			"en": " Feedback Manager",
-			"fr": " Feedback Manager"
+			"en": " Feedback Manager-Simplified Feedback Attribution and Efficient Assignment",
+			"fr": " Feedback Manager-Simplification de l'attribution des commentaires et affectation efficace"
 		},
-		"description": "",
-		"image": "/images/movies.jpeg",
+		"description": {
+			"en": "Experience the power of our Feedback Manager application, designed to streamline and enhance the process of assigning and managing user feedback. Our innovative solution includes the seamless integration of a specialized widget, providing an intuitive and efficient way to simplify the feedback attribution process. Empower your team with a comprehensive tool that ensures effective communication and collaboration in handling user input. Revolutionize your feedback management experience with our feature-rich application, setting the standard for excellence in user engagement",
+			"fr": "Découvrez la puissance de notre application Feedback Manager, conçue pour rationaliser et améliorer le processus d'attribution et de gestion des retours utilisateurs. Notre solution innovante intègre de manière transparente un widget spécialisé, offrant une manière intuitive et efficace de simplifier le processus d'attribution des commentaires. Donnez à votre équipe un outil complet qui garantit une communication et une collaboration efficaces dans la gestion des retours utilisateurs. Révolutionnez votre expérience de gestion des retours avec notre application riche en fonctionnalités, établissant la norme d'excellence en matière d'interaction utilisateur."
+		},
+		"image": "/images/feedback.jpeg",
 		"technologies": [
 			"VueJs",
 			"Prisma",
@@ -63,115 +55,58 @@
 	{
 		"id": 3,
 		"title": {
-			"en": "Feelim - Mood-Based Movie Recommendation",
-			"fr": "Feelim - Recommandation de Films basée sur l'Humeur"
+			"en": "Wattpad Clone - Literary Community Hub",
+			"fr": "Wattpad Clone - Hub Communautaire Littéraire"
 		},
-		"description": { "en": "", "fr": "" },
-		"image": "/images/movies.jpeg",
+		"description": {
+			"en": "Wattpad is a dynamic online platform where writers share their stories across various genres with a global community of readers. Users can publish chapters as they write, fostering collaborative storytelling. With features like reader comments, Wattpad creates a unique space for direct interaction between authors and their audience. The platform has become a breeding ground for discovering new literary talents and has even led to book deals and media adaptations for some writers.",
+			"fr": "Wattpad est une plateforme en ligne dynamique où les écrivains partagent leurs histoires à travers divers genres avec une communauté mondiale de lecteurs. Les utilisateurs peuvent publier des chapitres au fur et à mesure de leur écriture, favorisant ainsi une narration collaborative. Doté de fonctionnalités telles que les commentaires des lecteurs, Wattpad crée un espace unique pour une interaction directe entre les auteurs et leur public. La plateforme est devenue un terreau fertile pour découvrir de nouveaux talents littéraires et a même conduit à des contrats d'édition et des adaptations médiatiques pour certains écrivains."
+		},
+		"image": "/images/books.jpeg",
 		"technologies": [
-			"VueJs",
-			"Prisma",
-			"SolidJs",
-			"MySQL",
-			"TypeScript",
-			"Fastify",
-			"Turbo",
-			"Monorepo"
+			"React",
+			"ExpressJs",
+			"NodeJs",
+			"MongoDB",
+			"Redis",
+			"TailwindCSS",
+			"Typescript"
 		]
 	},
 	{
 		"id": 4,
 		"title": {
-			"en": "Feelim - Mood-Based Movie Recommendation",
-			"fr": "Feelim - Recommandation de Films basée sur l'Humeur"
+			"en": "Assa2h ",
+			"fr": "Assa2h "
 		},
-		"description": { "en": "", "fr": "" },
-		"image": "/images/movies.jpeg",
-		"technologies": [
-			"VueJs",
-			"Prisma",
-			"SolidJs",
-			"MySQL",
-			"TypeScript",
-			"Fastify",
-			"Turbo",
-			"Monorepo"
-		]
+		"description": { "en": "Embark on unforgettable journeys with Assa2h, your all-in-one travel companion offering a diverse array of hotels and transportation options. ", "fr": "Que vous planifiiez une escapade de week-end, un voyage d'affaires ou des vacances de rêve, Assa2h simplifie l'ensemble de l'expérience de voyage, vous assurant d'avoir tout ce dont vous avez besoin à portée de main." },
+		"image": "/images/assa2h.png",
+		"technologies": ["NextJs", "TailwindCss", "Typescript", "Axios"]
 	},
 	{
 		"id": 5,
 		"title": {
-			"en": "Feelim - Mood-Based Movie Recommendation",
-			"fr": "Feelim - Recommandation de Films basée sur l'Humeur"
+			"en": "Midan",
+			"fr": "Midan"
 		},
-		"description": { "en": "", "fr": "" },
-		"image": "/images/movies.jpeg",
-		"technologies": [
-			"VueJs",
-			"Prisma",
-			"SolidJs",
-			"MySQL",
-			"TypeScript",
-			"Fastify",
-			"Turbo",
-			"Monorepo"
-		]
+		"description": {
+			"en": "Effortlessly manage reservations, streamline check-ins, and enhance guest experiences with our intuitive platform. From efficient room assignments to personalized services, our application revolutionizes hotel operations. Elevate your establishment's reputation for excellence and efficiency with our comprehensive hotel management and booking solution.",
+			"fr": "Gérez les réservations de manière fluide, simplifiez les enregistrements et améliorez l'expérience des clients avec notre plateforme intuitive. Des attributions de chambres efficaces aux services personnalisés, notre application révolutionne les opérations hôtelières. Rehaussez la réputation d'excellence et d'efficacité de votre établissement avec notre solution complète de gestion et de réservation hôtelière."
+		},
+		"image": "/images/midan.png",
+		"technologies": ["NextJs", "TailwindCss", "Typescript", "Axios"]
 	},
 	{
 		"id": 6,
 		"title": {
-			"en": "Feelim - Mood-Based Movie Recommendation",
-			"fr": "Feelim - Recommandation de Films basée sur l'Humeur"
+			"en": "Afraa",
+			"fr": "Afraa"
 		},
-		"description": { "en": "", "fr": "" },
-		"image": "/images/movies.jpeg",
-		"technologies": [
-			"VueJs",
-			"Prisma",
-			"SolidJs",
-			"MySQL",
-			"TypeScript",
-			"Fastify",
-			"Turbo",
-			"Monorepo"
-		]
-	},
-	{
-		"id": 7,
-		"title": {
-			"en": "Feelim - Mood-Based Movie Recommendation",
-			"fr": "Feelim - Recommandation de Films basée sur l'Humeur"
+		"description": {
+			"en": "Seamlessly manage reservations, streamline check-ins, and enhance guest experiences with our intuitive platform. From efficient room assignments to personalized services, our application revolutionizes hotel operations. Elevate your establishment's reputation for excellence and efficiency with our feature-rich hotel management and booking solution.",
+			"fr": "Gérez les réservations de manière transparente, simplifiez les enregistrements et améliorez l'expérience client avec notre plateforme intuitive. Des attributions de chambres efficaces aux services personnalisés, notre application révolutionne les opérations hôtelières. Rehaussez la réputation d'excellence et d'efficacité de votre établissement avec notre solution complète de gestion et de réservation hôtelière"
 		},
-		"description": { "en": "", "fr": "" },
-		"image": "/images/movies.jpeg",
-		"technologies": [
-			"VueJs",
-			"Prisma",
-			"SolidJs",
-			"MySQL",
-			"TypeScript",
-			"Fastify",
-			"Turbo",
-			"Monorepo"
-		]
-	},
-	{
-		"id": 8,
-		"title": {
-			"en": "Feelim - Mood-Based Movie Recommendation",
-			"fr": "Feelim - Recommandation de Films basée sur l'Humeur"
-		},
-		"description": { "en": "", "fr": "" },
-		"image": "/images/movies.jpeg",
-		"technologies": [
-			"VueJs",
-			"Prisma",
-			"SolidJs",
-			"MySQL",
-			"TypeScript",
-			"Fastify",
-			"Turbo",
-			"Monorepo"
-		]
+		"image": "/images/aafra.png",
+		"technologies": ["NextJs", "TailwindCss", "Typescript", "Axios"]
 	}
 ]
