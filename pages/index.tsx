@@ -212,7 +212,7 @@ const Home: NextPage = () => {
 							</div>
 						</div>
 						<div className="flex flex-row justify-center">
-							<Link href="/">
+							<Link href="/projects">
 								<button className="relative p-2 text-primary-tint text-xs bg-secondary rounded-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out border border-solid   ">
 									View All Works
 								</button>
