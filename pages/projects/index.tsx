@@ -6,6 +6,7 @@ import Layout from "../../components/Layout";
 import Link from "next/link";
 import Image from "next/image.js";
 import React from "react";
+import projectsData from "../../projects.json";
 
 const Projects: NextPage = () => {
 	const { t, i18n } = useTranslation(["home", "common", "button", "input"]);
@@ -25,140 +26,31 @@ const Projects: NextPage = () => {
 							</div>
 						</div>
 						<div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-6 p-6 md:px-28">
-							<Link
-								href={{
-									pathname: `/projects/[id]`,
-									query: {
-										id: 1,
-									},
-								}}
-							>
-								<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
-									<Image
-										alt={"personal picture"}
-										src={"/images/crowdFunding.jpeg"}
-										layout="fill"
-										objectFit="cover"
-										className="rounded-md"
-									/>
-									<div className="absolute z-20 bg-black h-14 opacity-80 bottom-0 left-0 w-full"></div>
-									<div className="absolute z-20  h-14 flex items-center   bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
-										CrowdFund - Plateforme de Financement
-										Participatif Polyvalente
+							{projectsData.map((project) => (
+								<Link
+									key={project.id}
+									href={{
+										pathname: `/projects/[id]`,
+										query: {
+											id: project.id,
+										},
+									}}
+								>
+									<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
+										<Image
+											alt={"personal picture"}
+											src={project.image}
+											layout="fill"
+											objectFit="cover"
+											className="rounded-md"
+										/>
+										<div className="absolute z-20 bg-black h-14 opacity-80 bottom-0 left-0 w-full"></div>
+										<div className="absolute z-20  h-14 flex items-center   bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
+											{t(project.title[i18n.language])}
+										</div>
 									</div>
-								</div>
-							</Link>
-
-							<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
-								<Image
-									alt={"personal picture"}
-									src={"/images/movies.jpeg"}
-									layout="fill"
-									objectFit="cover"
-									className="rounded-md"
-								/>
-								<div className="absolute z-20 bg-black h-14 opacity-80 bottom-0 left-0 w-full"></div>
-								<div className="absolute z-20  h-14 flex items-center   bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
-									Feelim - Recommandation de Films basée sur
-									l'Humeur
-								</div>
-							</div>
-							<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
-								<Image
-									alt={"personal picture"}
-									src={"/images/feedback.jpeg"}
-									layout="fill"
-									objectFit="cover"
-									className="rounded-md"
-								/>
-								<div className="absolute z-20 bg-black h-14 opacity-80 bottom-0 left-0 w-full"></div>
-								<div className="absolute z-20 flex items-center  h-14  bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
-									Feedback Manager
-								</div>
-							</div>
-							<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
-								<Image
-									alt={"personal picture"}
-									src={"/images/books.jpeg"}
-									layout="fill"
-									objectFit="cover"
-									className="rounded-md"
-								/>
-								<div className="absolute z-20 bg-black h-14 opacity-80 bottom-0 left-0 w-full"></div>
-								<div className="absolute z-20  h-14 flex items-center   bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
-									Wattpad Clone
-								</div>
-							</div>
-							<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
-								<Image
-									alt={"personal picture"}
-									src={"/images/assa2h.png"}
-									layout="fill"
-									objectFit="cover"
-									className="rounded-md"
-								/>
-								<div className="absolute z-20 bg-black h-16 opacity-80 bottom-0 left-0 w-full"></div>
-								<div className="absolute z-20  h-16 flex items-center   bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
-									CrowdFund - Plateforme de Financement
-									Participatif Polyvalente
-								</div>
-							</div>
-							<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
-								<Image
-									alt={"personal picture"}
-									src={"/images/midan.png"}
-									layout="fill"
-									objectFit="cover"
-									className="rounded-md"
-								/>
-								<div className="absolute z-20 bg-black h-16 opacity-80 bottom-0 left-0 w-full"></div>
-								<div className="absolute z-20  h-16 flex items-center   bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
-									CrowdFund - Plateforme de Financement
-									Participatif Polyvalente
-								</div>
-							</div>
-							<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
-								<Image
-									alt={"personal picture"}
-									src={"/images/midan.png"}
-									layout="fill"
-									objectFit="cover"
-									className="rounded-md"
-								/>
-								<div className="absolute z-20 bg-black h-16 opacity-80 bottom-0 left-0 w-full"></div>
-								<div className="absolute z-20  h-16 flex items-center   bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
-									CrowdFund - Plateforme de Financement
-									Participatif Polyvalente
-								</div>
-							</div>
-							<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
-								<Image
-									alt={"personal picture"}
-									src={"/images/midan.png"}
-									layout="fill"
-									objectFit="cover"
-									className="rounded-md"
-								/>
-								<div className="absolute z-20 bg-black h-16 opacity-80 bottom-0 left-0 w-full"></div>
-								<div className="absolute z-20  h-16 flex items-center   bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
-									CrowdFund - Plateforme de Financement
-									Participatif Polyvalente
-								</div>
-							</div>
-							<div className="relative h-44 bg-secondary rounded-md shadow-md cursor-pointer hover:scale-125 transition duration-700 ease-in-out">
-								<Image
-									alt={"personal picture"}
-									src={"/images/midan.png"}
-									layout="fill"
-									objectFit="cover"
-									className="rounded-md"
-								/>
-								<div className="absolute z-20 bg-black h-16 opacity-80 bottom-0 left-0 w-full"></div>
-								<div className="absolute z-20  h-16 flex items-center   bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
-									CrowdFund - Plateforme de Financement
-									Participatif Polyvalente
-								</div>
-							</div>
+								</Link>
+							))}
 						</div>
 						<div className="w-full h-0.5 bg-gradient-to-r from-secondary via-primary-shade to-secondary "></div>
 					</div>
