@@ -1,10 +1,11 @@
+export {};
 import type { GetStaticProps, NextPage } from "next";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import type { GetServerSideProps } from "next";
 import nextI18NextConfig from "../../i18n/next-i18next.config.js";
 import Typewriter from "typewriter-effect";
-import Link from "next/link.js";
+import Link from "next/link";
 import Image from "next/image.js";
 import React from "react";
 import Layout from "../../components/Layout.tsx";
