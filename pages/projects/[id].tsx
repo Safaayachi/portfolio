@@ -1,17 +1,17 @@
 export {};
+
 import type { GetStaticProps, NextPage } from "next";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import type { GetServerSideProps } from "next";
 import nextI18NextConfig from "../../i18n/next-i18next.config.js";
-import Typewriter from "typewriter-effect";
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import Layout from "../../components/Layout";
 import { Router, useRouter } from "next/router";
 
-const Home: NextPage = () => {
+const Project: NextPage = () => {
 	const { t, i18n } = useTranslation(["home", "common", "button", "input"]);
 	const router = useRouter();
 	const { id } = router.query;
@@ -39,4 +39,4 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 		},
 	};
 };
-export default Home;
+export default Project;
