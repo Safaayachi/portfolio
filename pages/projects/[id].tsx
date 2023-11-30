@@ -1,5 +1,3 @@
-export {};
-
 import type { GetServerSideProps, NextPage } from "next";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -8,12 +6,21 @@ import React from "react";
 import Image from "next/image";
 import Layout from "../../components/Layout";
 import projectsData from "../../projects.json";
+interface ProjectProps {
+	project: {
+		id: number;
+		image: string;
+		title: { [key: string]: string };
+		description: { [key: string]: string };
+		technologies: string[];
+	};
+}
 
-const Project: NextPage = ({ project }) => {
+const Project: NextPage<ProjectProps> = ({ project }) => {
 	const { t, i18n } = useTranslation(["home", "common", "button", "input"]);
 
 	if (!project) {
-		// Handle the case where the project with the given id doesn't exist
+		
 		return <div>Project not found</div>;
 	}
 
@@ -64,7 +71,9 @@ const Project: NextPage = ({ project }) => {
 								</div>
 							</div>
 							<div className="relative flex flex-col items-start">
-								<div className="h-full text-xs font-bold py-2  text-primary-shade">Links to project</div>
+								<div className="h-full text-xs font-bold py-2  text-primary-shade">
+									Links to project
+								</div>
 								<div className="flex flex-row gap-2">
 									<a
 										href="https://github.com/Safaayachi"
@@ -93,20 +102,20 @@ const Project: NextPage = ({ project }) => {
 		</div>
 	);
 };
-export const getServerSideProps: GetServerSideProps = async (context) => {
-	const { id } = context.query;
-	const project = projectsData[id];
+export const getServerSideProps: GetServerSideProps = async (context) => {      
+    const { id } = context.query;
+    const project = projectsData.find((p) => p.id === Number(id));
 
-	return {
-		props: {
-			project,
-			...(await serverSideTranslations(
-				context.locale as string,
-				["home", "common", "button"],
-				nextI18NextConfig
-			)),
-		},
-	};
+    return {
+        props: {
+            project,
+            ...(await serverSideTranslations(
+                context.locale as string,
+                ["home", "common", "button"],
+                nextI18NextConfig
+            )),
+        },
+    };
 };
 
 export default Project;

@@ -8,6 +8,7 @@ import Image from "next/image.js";
 import React from "react";
 import projectsData from "../../projects.json";
 
+
 const Projects: NextPage = () => {
 	const { t, i18n } = useTranslation(["home", "common", "button", "input"]);
 
@@ -46,7 +47,7 @@ const Projects: NextPage = () => {
 										/>
 										<div className="absolute z-20 bg-black h-14 opacity-80 bottom-0 left-0 w-full"></div>
 										<div className="absolute z-20  h-14 flex items-center   bottom-0 left-0 w-full p-2 text-white text-xs font-extrabold">
-											{t(project.title[i18n.language])}
+										{t(project.title[i18n.language as 'en' | 'fr'] as string)}
 										</div>
 									</div>
 								</Link>
