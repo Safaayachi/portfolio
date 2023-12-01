@@ -13,6 +13,8 @@ interface ProjectProps {
 		title: { [key: string]: string };
 		description: { [key: string]: string };
 		technologies: string[];
+		link: string;
+		linkGit: string;
 	};
 }
 
@@ -20,7 +22,6 @@ const Project: NextPage<ProjectProps> = ({ project }) => {
 	const { t, i18n } = useTranslation(["home", "common", "button", "input"]);
 
 	if (!project) {
-		
 		return <div>Project not found</div>;
 	}
 
@@ -76,7 +77,7 @@ const Project: NextPage<ProjectProps> = ({ project }) => {
 								</div>
 								<div className="flex flex-row gap-2">
 									<a
-										href="https://github.com/Safaayachi"
+										href={project.linkGit}
 										target="_blank"
 										rel="noopener noreferrer"
 									>
@@ -85,7 +86,7 @@ const Project: NextPage<ProjectProps> = ({ project }) => {
 										</div>
 									</a>
 									<a
-										href="https://github.com/Safaayachi"
+										href={project.link}
 										target="_blank"
 										rel="noopener noreferrer"
 									>
@@ -102,20 +103,20 @@ const Project: NextPage<ProjectProps> = ({ project }) => {
 		</div>
 	);
 };
-export const getServerSideProps: GetServerSideProps = async (context) => {      
-    const { id } = context.query;
-    const project = projectsData.find((p) => p.id === Number(id));
+export const getServerSideProps: GetServerSideProps = async (context) => {
+	const { id } = context.query;
+	const project = projectsData.find((p) => p.id === Number(id));
 
-    return {
-        props: {
-            project,
-            ...(await serverSideTranslations(
-                context.locale as string,
-                ["home", "common", "button"],
-                nextI18NextConfig
-            )),
-        },
-    };
+	return {
+		props: {
+			project,
+			...(await serverSideTranslations(
+				context.locale as string,
+				["home", "common", "button"],
+				nextI18NextConfig
+			)),
+		},
+	};
 };
 
 export default Project;

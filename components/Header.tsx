@@ -15,7 +15,7 @@ const Header = () => {
 	const [showMenu, setShowMenu] = useState(false);
 	return (
 		<Fragment>
-			<header className="flex  items-center z-20 w-full bg-dark fixed shadow-xl">
+			<header className="flex  items-center z-30 w-full bg-dark fixed shadow-xl">
 				<nav className="relative py-4 items-center container sm:mx-auto   md:px-10 px-6 justify-start md:hidden ">
 					<div
 						onClick={

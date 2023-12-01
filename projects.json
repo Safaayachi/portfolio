@@ -11,7 +11,15 @@
 		},
 
 		"image": "/images/crowdFunding.jpeg",
-		"technologies": ["NextJs", "Prisma", "MySQL", "TailwindCSS", "NextAuth"]
+		"technologies": [
+			"NextJs",
+			"Prisma",
+			"MySQL",
+			"TailwindCSS",
+			"NextAuth"
+		],
+		"linkGit": "https://github.com/Safaayachi/crowd-funding-plateforme",
+		"link": ""
 	},
 	{
 		"id": 1,
@@ -28,7 +36,9 @@
 			"Express",
 			"Prisma",
 			"Postgresql"
-		]
+		],
+		"linkGit": "",
+		"link": ""
 	},
 	{
 		"id": 2,
@@ -50,7 +60,9 @@
 			"Fastify",
 			"Turbo",
 			"Monorepo"
-		]
+		],
+		"linkGit": "https://gitlab.com/jood-lab-interns/feedback-app.git",
+		"link": ""
 	},
 	{
 		"id": 3,
@@ -71,7 +83,9 @@
 			"Redis",
 			"TailwindCSS",
 			"Typescript"
-		]
+		],
+		"linkGit": "https://github.com/Safaayachi/wattpad-clone",
+		"link": ""
 	},
 	{
 		"id": 4,
@@ -79,9 +93,14 @@
 			"en": "Assa2h ",
 			"fr": "Assa2h "
 		},
-		"description": { "en": "Embark on unforgettable journeys with Assa2h, your all-in-one travel companion offering a diverse array of hotels and transportation options. ", "fr": "Que vous planifiiez une escapade de week-end, un voyage d'affaires ou des vacances de rêve, Assa2h simplifie l'ensemble de l'expérience de voyage, vous assurant d'avoir tout ce dont vous avez besoin à portée de main." },
+		"description": {
+			"en": "Embark on unforgettable journeys with Assa2h, your all-in-one travel companion offering a diverse array of hotels and transportation options. ",
+			"fr": "Que vous planifiiez une escapade de week-end, un voyage d'affaires ou des vacances de rêve, Assa2h simplifie l'ensemble de l'expérience de voyage, vous assurant d'avoir tout ce dont vous avez besoin à portée de main."
+		},
 		"image": "/images/assa2h.png",
-		"technologies": ["NextJs", "TailwindCss", "Typescript", "Axios"]
+		"technologies": ["NextJs", "TailwindCss", "Typescript", "Axios"],
+		"linkGit": "https://github.com/Safaayachi/Assa2eh",
+		"link": "https://assa2eh.vercel.app/"
 	},
 	{
 		"id": 5,
@@ -94,7 +113,9 @@
 			"fr": "Gérez les réservations de manière fluide, simplifiez les enregistrements et améliorez l'expérience des clients avec notre plateforme intuitive. Des attributions de chambres efficaces aux services personnalisés, notre application révolutionne les opérations hôtelières. Rehaussez la réputation d'excellence et d'efficacité de votre établissement avec notre solution complète de gestion et de réservation hôtelière."
 		},
 		"image": "/images/midan.png",
-		"technologies": ["NextJs", "TailwindCss", "Typescript", "Axios"]
+		"technologies": ["NextJs", "TailwindCss", "Typescript", "Axios"],
+		"linkGit": "https://github.com/Safaayachi/midan",
+		"link": "https://midan.vercel.app/"
 	},
 	{
 		"id": 6,
@@ -107,6 +128,8 @@
 			"fr": "Gérez les réservations de manière transparente, simplifiez les enregistrements et améliorez l'expérience client avec notre plateforme intuitive. Des attributions de chambres efficaces aux services personnalisés, notre application révolutionne les opérations hôtelières. Rehaussez la réputation d'excellence et d'efficacité de votre établissement avec notre solution complète de gestion et de réservation hôtelière"
 		},
 		"image": "/images/aafra.png",
-		"technologies": ["NextJs", "TailwindCss", "Typescript", "Axios"]
+		"technologies": ["NextJs", "TailwindCss", "Typescript", "Axios"],
+		"linkGit": "https://github.com/Safaayachi/afraa",
+		"link": "https://afraa.vercel.app/"
 	}
 ]
